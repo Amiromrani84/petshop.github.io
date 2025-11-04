@@ -121,6 +121,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap; 
   justify-content: center; 
+  gap: 30px;
 }
 
 .optioninputs label {
@@ -128,12 +129,6 @@ button:hover {
   align-items: center;
   font-size: 16px;
 }
-
-input[type="radio"] {
-  margin: 0;
-  accent-color: #007bff;
-}
-
 
 .comment {
     font-size: 0.9em;
@@ -190,7 +185,13 @@ input[type="radio"] {
   .done p {
     font-size: 0.8em;
   }
+  
+  .optioninputs {
+  gap: 10px;
+  }
+
 }
+
 
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
