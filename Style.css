@@ -116,13 +116,25 @@ button:hover {
     flex: 1;
 }
 
+.optioninputs {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+}
 
 .optioninputs label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  cursor: pointer;
+  gap: 5px;
+  font-size: 16px;
 }
+
+input[type="radio"] {
+  margin: 0;
+  accent-color: #007bff;
+}
+
 
 .comment {
     font-size: 0.9em;
