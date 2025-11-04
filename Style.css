@@ -119,11 +119,14 @@ button:hover {
 
 .optioninputs {
   display: flex;
+  gap: 40px;
 }
 
 .optioninputs label {
   display: inline-flex;
   align-items: center;
+  gap: 0px;
+
 }
 
 .comment {
