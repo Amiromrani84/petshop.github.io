@@ -57,7 +57,7 @@ h1 {
     grid-area: header;
     margin-top: 40px;
     margin-bottom: 40px;
-    color: aqua;
+    color: rgb(81, 0, 255);
 }
 
 .done {
@@ -119,15 +119,17 @@ button:hover {
 
 .optioninputs {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
   gap: 30px;
 }
 
 .optioninputs label {
   display: inline-flex;
   align-items: center;
-  font-size: 16px;
+}
+
+.optioninputs p {
+  display: inline-flex;
+  align-items: center;
 }
 
 .comment {
@@ -185,7 +187,7 @@ button:hover {
   .done p {
     font-size: 0.8em;
   }
-  
+
   .optioninputs {
   gap: 10px;
   }
