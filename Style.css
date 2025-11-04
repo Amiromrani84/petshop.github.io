@@ -125,7 +125,6 @@ button:hover {
 .optioninputs label {
   display: inline-flex;
   align-items: center;
-  margin-left: 10xp;
 }
 
 .comment {
@@ -187,7 +186,6 @@ button:hover {
   .optioninputs {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
   }
 
 }
