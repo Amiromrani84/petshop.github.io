@@ -117,6 +117,11 @@ button:hover {
     flex: 1;
 }
 
+input[type="radio"] {
+  margin: 0;
+  padding: 0;
+}
+
 .optioninputs {
   display: flex;
   gap: 40px;
