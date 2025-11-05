@@ -186,10 +186,13 @@ button:hover {
   }
 
   .optioninputs {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-  }
+  gap: 5px;
+}
+
+.optioninputs label {
+  gap: 0px;
+
+}
 
 }
 
