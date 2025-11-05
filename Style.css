@@ -117,9 +117,10 @@ button:hover {
     flex: 1;
 }
 
-input[type="radio"] {
+.optioninputs input[type="radio"] {
   margin: 0;
   padding: 0;
+  vertical-align: middle;
 }
 
 .optioninputs {
